@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Agenda</title>
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/estilos.css" >
+  </head>
+    <body>
+        <header>
+          <center><span class="titulo">Agenda - Moviles 2015</span></center>
+        </header>
+        <div class="contenido">
+          <div class="login">
+            <center><h2>Iniciar sesión</h2></center>
+              <form  action="login" method="post">
+                <table>
+                  <tr>
+                    <td>
+                      <span>Usuario:</span>
+                    </td>
+                    <td>
+                      <input type="text" name="user" id="user" placeholder="Usuario" required="required" class="i_login">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span>Contraseña: </span>
+                    </td>
+                    <td>
+                      <input type="password" name="password" id="password" placeholder="Contraseña" required="required" class="i_login">
+                    </td>
+                  </tr>
+                </table>
+                <center><p><input type="submit" name="name" value="Ingresar"><br><br>
+                  <input type="button" name="registrarse" value="Registarse" onclick="mostarRegistro()"></center>
+              </form>
+          </div>
+          <div class="registro">
+            <center><h2>Registro</h2></center>
+              <form class="registro_form" action="registro" method="post">
+                <table>
+                  <tr>
+                    <td>
+                        Usuario*:
+                    </td>
+                    <td>
+                      <input type="text" name="user" placeholder="Usuario" required="required">
+                    </td>
+                  </tr>
+                    <tr>
+                      <td>
+                        Nombre*:
+                      </td>
+                      <td>
+                        <input type="text" name="nombre" placeholder="Nombre" required="required">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Apellido paterno*:
+                      </td>
+                      <td>
+                        <input type="text" name="a_paterno" placeholder="Apellido paterno" required="required">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Fecha de nacimiento*:
+                      </td>
+                      <td>
+                        <input type="date" name="f_nac" required="required">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Contraseña*:
+                      </td>
+                      <td>
+                        <input type="password" name="pass" placeholder="Contraseña" required="required" id="pass1">
+                      </td>
+                    </tr>
+                </table>
+                <center><p><input type="submit" id="registrar" value="Registrarse"></center>
+              </form>
+              <center><input type="button" value="Cerrar" onclick="cerrarRegistro()">
+          </div>
+          <!-- <footer>
+            <center><span class="itd">Instituto Tecnológico de Durango</span></center>
+          </footer> -->
+        </div>
+    </body>
+    <!-- SCRIPTS -->
+    <script src="js/vendor/jquery-1.11.1.min.js"></script>
+    <script src="js/vendor/actions.js"></script>
+    <script src="js/vendor/queries.js"></script>
+</html>

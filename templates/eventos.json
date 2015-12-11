@@ -1,0 +1,25 @@
+[{
+  "id_evento":1,
+  "nombre":"Soy un evento",
+  "fecha":"2015-12-12",
+  "h_inicio":"16:00",
+  "h_termino":"17:00",
+  "detalles":"Soy un evento de prueba"
+  },
+{
+  "id_evento":2,
+  "nombre":"Hola",
+  "fecha":"2015-12-12",
+  "h_inicio":"16:00",
+  "h_termino":"17:00",
+  "detalles":"Soy un evento de prueba"
+},
+{
+  "id_evento":3,
+  "nombre":"Adios",
+  "fecha":"2015-12-12",
+  "h_inicio":"16:00",
+  "h_termino":"17:00",
+  "detalles":"Soy un evento de prueba"
+}
+]

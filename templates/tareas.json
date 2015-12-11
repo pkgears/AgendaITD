@@ -1,0 +1,25 @@
+[{
+  "id_tarea":1,
+  "nombre":"Tarea 1",
+  "f_entrega":"2015/12/12",
+  "f_creacion":"Hoy",
+  "materia":"Alguna materia",
+  "detalles":"Soy una tarea de prueba"
+},
+{
+  "id_tarea":2,
+  "nombre":"Tarea 2",
+  "f_entrega":"2015/12/12",
+  "f_creacion":"Hoy",
+  "materia":"Alguna materia",
+  "detalles":"Soy una tarea de prueba"
+},
+{
+  "id_tarea":3,
+  "nombre":"Tarea 3",
+  "f_entrega":"2015/12/12",
+  "f_creacion":"Hoy",
+  "materia":"Alguna materia",
+  "detalles":"Soy una tarea de prueba"
+}
+  ]

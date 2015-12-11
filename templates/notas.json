@@ -1,0 +1,12 @@
+[
+ {"id_nota":1,
+  "nombre":"Esta es una nota",
+  "f_creacion":"hoy",
+  "detalles":"esta es una nota para hacer pruebas"
+},
+{"id_nota":2,
+ "nombre":"Esta es una otra nota",
+ "f_creacion":"hoy",
+ "detalles":"esta es una nota para hacer pruebas"
+}
+]

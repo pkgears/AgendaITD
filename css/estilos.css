@@ -1,0 +1,192 @@
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100px;
+  background: #eee ;
+  padding-top: 15px;
+  border-bottom: solid black 5px;
+  color:#781047;
+}
+
+.titulo{
+  font-weight: bold;
+  font-size: 48px;
+}
+.contenido{
+  width: 1300px;
+  position: relative;
+}
+.logo{
+  position: relative;
+  z-index: 1;
+  bottom: 0;
+}
+footer{
+  color: #781047;
+  width: 100%;
+  height: 20px;
+  background-color: #eee ;
+  position: relative;
+  bottom: 0px;
+}
+.itd{
+  font-size: 15px;
+  font-weight: bold;
+}
+/****** LOGIN ******/
+.contenido_login{
+  z-index: 0
+}
+.login{
+  display: block;
+  background: white;
+  border-radius: 10px;
+  border: solid #781047 5px;
+  position: absolute;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  z-index: 1;
+  left: 35%
+}
+.login form{
+  margin-top: 20px;
+}
+.login form table{
+  margin: 0 auto;
+}
+.i_login{
+  margin: 5px;
+}
+
+/**** REGISTRO *****/
+.registro{
+  box-shadow: 10px 10px 5px #888888;
+  width: 400px;
+  background: white;
+  border-radius: 10px;
+  border: solid #781047 5px;
+  position: absolute;
+  display: none;
+  margin: 0 auto;
+  margin-top: 100px;
+  z-index: 2;
+  left: 35%;
+  padding-bottom: 5px;
+}
+.registro_form{
+  margin: 10px;
+}
+.registro_form input{
+  margin: 5px;
+}
+
+/****** Inicio *******/
+.menu{
+  position: relative;
+  display: inline-block;
+  float: left;
+  top: 30px;
+  left: 30px;
+  width: 20%;
+  border-radius: 10px;
+  border: solid #781047 5px;
+}
+.menu ul{
+  margin: 0 auto;
+  list-style: none;
+}
+
+.menu ul button{
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  background: #781047;
+  margin: 10px;
+  width: 150px;
+}
+.principal{
+  position: relative;
+  display: inline-block;
+  float: right;
+  right: 30px;
+  top: 30px;
+  min-height: 450px;
+  width: 70%;
+  border: solid #781047 5px;
+  border-radius: 10px;
+}
+.principal div{
+  display: none;
+}
+.principal ul{
+  list-style: none;
+}
+.principal ul li{
+  margin: 3px
+}
+.principal a{
+  text-decoration: none;
+}
+.secundario{
+  z-index: 2;
+}
+.secundario div{
+  display: block;
+}
+#calendario{
+  display: block;
+}
+/***** TODO ******/
+.lista{
+
+  position: absolute;
+  overflow: scroll;
+  min-height: 300px;
+  width: 250px;
+  border-right: 3px solid black;
+}
+
+.info{
+  position: absolute;
+  right: 15%;
+  margin-left: 15px;
+}
+.info input{
+  margin: 5px;
+}
+
+
+
+/***** Formularios de altas *******/
+.alta{
+  display: none;
+  box-shadow: 10px 10px 5px #888888;
+  position: relative;
+  margin: 0 auto;
+  background: white;
+  z-index: 3;
+  width: 50%;
+  height: 275px;
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom:2%;
+  border: solid #781047 5px;
+  border-radius: 10px;
+}
+
+.nueva_nota{
+  height: 225px;
+}
+
+.nueva_nota input{
+  margin: 5px;
+}

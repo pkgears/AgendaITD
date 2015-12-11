@@ -1,0 +1,22 @@
+[
+  {"id_contacto":1,
+  "nombre":"Cesar",
+  "apellido_p":"Ortíz",
+  "apellido_m":"Salazar",
+  "f_nac":"02/08/1993",
+  "telefono": "618123145",
+  "celular": "61834564",
+  "direccion":"mi casa",
+  "email":"pkgears"
+  },
+  {"id_contacto":2,
+    "nombre":"Eduardo",
+    "apellido_p":"Ortíz",
+    "apellido_m":"Salazar",
+    "f_nac":"1993/08/02",
+    "telefono": "618123145",
+    "celular": "61834564",
+    "direccion":"mi casa",
+    "email":"pkgears"
+  }
+]
